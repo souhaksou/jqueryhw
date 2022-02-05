@@ -63,6 +63,8 @@ a {
 .cart a {
   color: #00cc99;
   font-weight: bold;
+  display: block;
+  padding: 16px;
 }
 .cart ul {
   display: none;
@@ -74,10 +76,6 @@ a {
   z-index: 2;
   text-align: center;
   width: 100%;
-}
-.cart li {
-  display: block;
-  padding: 16px;
 }
 .cart > li {
   border-bottom: 3px solid #fff;
@@ -219,6 +217,7 @@ a {
   width: 50px;
 }
 .info .info_submit:hover {
+  cursor: pointer;
   color: yellow;
   background: #000;
 }

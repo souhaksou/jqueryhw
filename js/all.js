@@ -6,6 +6,14 @@ $(document).ready(function () {
     $(this).parent().find("ul").slideToggle();
   });
   //  Scroll to top效果
+  function showBtnCondition() {
+    if ($(this).scrollTop() > 200) {
+      $(".toTop").fadeIn();
+    } else {
+      $(".toTop").fadeOut();
+    }
+  }
+  $(window).scroll(showBtnCondition);
   $(".toTop").click(function (e) {
     e.preventDefault();
     $("html,body").animate({ scrollTop: 0 }, 500);
