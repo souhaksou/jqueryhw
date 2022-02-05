@@ -244,6 +244,7 @@ a {
   bottom: 20px;
   font-size: 80px;
   color: darkmagenta;
+  display: none;
 }
 .toTop:hover {
   color: magenta;
